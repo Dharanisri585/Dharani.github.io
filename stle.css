@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:ghostwhite;
+    font-size: 16px;
+    max-width: 1440px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'plus Jarkarta sans',sans-serif;
+}
+main{
+    gap: 10px;
+    background-color:azure;
+    width: 60%;
+    padding: 1rem 3rem;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    margin: 5%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+img{margin: 1rem; width: 10%; float: left;}
+header p:first-child{font-size: 20px; font-weight: 800;}
+.alert{
+    padding: 0 10px;color: aliceblue;
+    background-color:darkblue;
+    border-radius: 5px;
+}
+
+.main div{border-radius: 5px;}
+span{font-weight: 800;}
+small{color:rgb(89, 86, 92);}
+
+main div div{line-height: 1rem;}
+fieldset{border-radius: 5px; margin: 1rem; padding: 1rem 2rem;}
+fieldset:hover{background-color:black;}
+.friend{color: black;}
+.event{color: black;}
+.club{float: left;}
+.sangee{
+    display: flex;
+}
+.sangee div img{width: 20%;}
+.sangee p{width:160%}
+.indhu,
+.yoga,
+.vaishu{background-color:lightgrey;}
+
+
+.span:hover:not(.alert){color: aqua;}
