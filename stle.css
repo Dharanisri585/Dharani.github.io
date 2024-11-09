@@ -55,6 +55,7 @@ fieldset:hover{background-color:black;}
 .yoga,
 .vaishu{background-color:lightgrey;}
 
+
 .span:hover:not(.alert){color: aqua;}
 .dot{
     margin-left: 10px;
